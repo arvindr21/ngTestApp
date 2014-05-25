@@ -17,15 +17,15 @@ exports.config = {
 
   // If sauceUser and sauceKey are specified, seleniumServerJar will be ignored.
   // The tests will be run remotely using SauceLabs.
-  //sauceUser: 'arvindr21',
-  //sauceKey: '9ab3f0ac-219d-462e-ba7a-14d598856cea',
+  //sauceUser: 'arvind',
+  //sauceKey: '9ab3f0ac-xxxx-462e-xxxx-14d598856cea',
   
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
     'browserName': 'safari'
   },
 
-  baseUrl: 'http://localhost:9000/',
+  baseUrl: 'http://arvindr21.github.io/ngTestApp/',
 
   framework: 'jasmine',
 

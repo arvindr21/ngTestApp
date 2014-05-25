@@ -7,6 +7,10 @@ describe('my app', function() {
     browser.get('/#/login');
   });
 
+  /*beforeEach(function () {
+    browser.get('/ngTestApp/#/login');
+  });*/
+
   it('should redirect to /login when location hash is login', function() {
     expect(browser.getLocationAbsUrl()).toMatch("/login");
   }); 
